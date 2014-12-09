@@ -1,14 +1,7 @@
 ============================
-Tutorial de Three.js
+Presentación
 ============================
 
-
-
-Tutorial en español que explica como utilizar la libreria Three.js.
-
-
-Presentación
-----------------
 
 * Que es una librería en Programación
 

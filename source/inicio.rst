@@ -9,8 +9,9 @@ Tutorial en español que explica como utilizar la libreria Three.js, para crear 
 Introducción:
 
 .. toctree::
-    :maxdepth: 1
+   :maxdepth: 2
+	
+   presentacion
+   primeros_pasos
 
-    presentacion.rst
-    primeros_pasos.rst
 

@@ -1,9 +1,4 @@
-============================
-Tutorial de Three.js
-============================
-Tutorial en español que explica como utilizar la libreria Three.js.
 
-----
 
 ============================
 Preparando el terreno
