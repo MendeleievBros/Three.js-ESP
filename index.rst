@@ -11,7 +11,7 @@ Introducción:
 .. toctree::
    :maxdepth: 2
 	
-   presentacion
-   primeros_pasos
+   source/presentacion
+   source/primeros_pasos
 
 
