@@ -34,7 +34,6 @@ en el navegador la utilización de WebGL.
 * * **Paso 3:** Reinicia el navegador.
 
 
+Una vez habilitado, abre esta página. `get.webgl.org <http://get.webgl.org/>`_ , te debería salir algo así:
 
-Una vez habilitado, abre esta página. <a href="http://get.webgl.org/">get.webgl.org</a> , te debería salir algo así:
-
-.. figure:: img/webgl_validate.png.png
+.. figure:: img/webgl_validate.png
