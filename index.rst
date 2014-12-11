@@ -9,9 +9,19 @@ Tutorial en español que explica como utilizar la libreria Three.js, para crear 
 Introducción:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 	
    source/presentacion
    source/primeros_pasos
+   source/conceptos_basicos
+   
+   
+   
+Introducción:
 
-
+.. toctree::
+   :maxdepth: 1
+	
+   source/presentacion
+   source/primeros_pasos
+   source/conceptos_basicos
