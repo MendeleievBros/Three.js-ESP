@@ -44,3 +44,15 @@ Firefox
 Una vez habilitado, abre esta página. `get.webgl.org <http://get.webgl.org/>`_ , te debería salir algo así:
 
 .. figure:: img/webgl_validate.png
+
+
+
+Three.js
+--------
+Para poder utilizar la librería de Three.js, hace falta descargarla y añadirla en la carpeta del proyecto.
+
+`Descargar la última versión <http://github.com/mrdoob/three.js/zipball/master>`_ .
+
+Una vez descargado, descomprimir en la carpeta en la que tengamos el proyecto.
+
+Solo utilizaremos el archivo **three.min.js**, que está en la carpeta build, hay que ponerlo en una carpeta que llamaremos "js", en la que guardaremos todos los archivos ".js".
