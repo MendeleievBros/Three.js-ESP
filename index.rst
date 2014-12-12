@@ -22,6 +22,4 @@ Introducción:
 .. toctree::
    :maxdepth: 1
 	
-   source/presentacion
-   source/primeros_pasos
-   source/conceptos_basicos
+   source/crear_escena
