@@ -20,6 +20,7 @@ Vamos a desgranar el proyecto en diferentes objetos, explicando cada uno:
 - **Render** --> Un render es el objeto WebGL donde la tarjeta gráfica pintará todos los gráficos. Un mundo 3D (escena) puede ser enorme, pero en pantalla sólo se pintará aquello que quede dentro del encuadre de la “cámara”. Ésto es lo que llamaremos render.
 
 - **Camara** --> Una escena puede contener tantas cámaras como deseemos, pero sólo se podrá utilizar una de ellas para renderizar la escena en un momento dado. Una cámara puede ser posicionada y rotada tantas veces como queramos.Para definir una cámara hay que tener en cuenta qué tipo de proyección queremos tener. Three.js nos proporciona tres tipos de proyecciones:
+  
    - Proyección paralela, cámara del tipo OrthographicCamera
    - Proyección cónica, cámara del tipo PerspectiveCamera
    - Proyección combinada, cámara del tipo CombinedCamera, y que permite cambiar entre la proyección cónica y paralela en tiempo de ejecución.
