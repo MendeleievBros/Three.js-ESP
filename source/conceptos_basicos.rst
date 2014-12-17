@@ -15,7 +15,7 @@ Vamos a desgranar el proyecto en diferentes objetos, explicando cada uno:
 
 - **Canvas** --> Canvas (lienzo en inglés) es un elemento HTML que permite la generación de gráficos dinámicamente. El objeto canvas puede ser accedido a través de JavaScript, permitiendo generar gráficos 2D, juegos, animaciones y composición de imágenes.
 
-- **Escena** --> Una escena es un espacio tridimensional en el que puedes añadir               objetos, interactuar con ellos y moverte por el.
+- **Escena** --> Una escena es un espacio tridimensional en el que puedes añadir objetos, interactuar con ellos y moverte por el.
 
 - **Render** --> Un render es el objeto WebGL donde la tarjeta gráfica pintará todos los gráficos. Un mundo 3D (escena) puede ser enorme, pero en pantalla sólo se pintará aquello que quede dentro del encuadre de la “cámara”. Ésto es lo que llamaremos render.
 
