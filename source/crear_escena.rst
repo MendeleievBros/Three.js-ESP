@@ -1,4 +1,3 @@
-
 ============================
 Creando una escena
 ============================
@@ -86,5 +85,5 @@ Si abrimos el archivo index.html en el navegador, veremos algo como esto:
 
 .. figure:: img/escena_vacia.png
 
-El canvas negro es la escena, y se ve negra ya que no hemos añadido ningún objeto.
+El canvas negro es la escena, y se ve negro ya que no hemos añadido ningún objeto.
 

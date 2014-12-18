@@ -23,3 +23,4 @@ Introducción:
    :maxdepth: 1
 	
    source/crear_escena
+   source/anadir_objetos
