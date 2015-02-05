@@ -104,7 +104,8 @@ El cubo lo tenemos que añadir dentro de la función startEscena, quedando así:
   
   
   
-  Figuras vectoriales
+  
+Figuras vectoriales
 -------------------
 
 Las figuras vectoriales que genera three.js son de las más fáciles de usar.
