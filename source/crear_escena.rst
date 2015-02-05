@@ -21,7 +21,7 @@ Estará en el archivo index.html, y será el archivo "ejecutable".
     <script src="js/javascript.js"></script> <!-- archivo que contendrá la parte lógica -->
     </head>
     <body onload="webGLStart();">
-    <div id="canvas"></div>
+    <div id="canvas" align="center"></div>
     </body>
     </html>
 
