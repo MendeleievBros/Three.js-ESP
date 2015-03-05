@@ -1,5 +1,5 @@
 ============================
-añadiendo objetos
+Añadiendo objetos
 ============================
 
 Ahora ya tenemos la escena, pero vacía. En three.js hay dos grandes tipos de figuras, las geométricas o vectoriales, que las puedes generar desde el propio three.js, y las que generas con un editor de gráficos 3D, como blender.
@@ -111,5 +111,37 @@ Si abrimos el archivo index.html en el navegador, veremos algo como esto:
 
 .. figure:: img/escena_cubo.png
 
+
+
+Figuras vectoriales
+-------------------
+Consiste en indicar todos los vectores y caras que contendrá la figura. Esta opción es util para hacer objetos no regulares.
+
+Nosotros haremos un cuadrado. tenemos que indicar la cordenada de inicio y de final, de cada cara:
+
+.. code-block:: javascript
+
+   var cuadradoMaterial = new THREE.MeshBasicMaterial({
+       color:0x8080FF,
+       side:THREE.DoubleSide
+   });
+
+   var cuadradoGeometria = new THREE.Geometry();
+   cuadradoGeometria.vertices.push(new THREE.Vector3(-1.0,  1.0, 0.0));
+   cuadradoGeometria.vertices.push(new THREE.Vector3( 1.0,  1.0, 0.0));
+   cuadradoGeometria.vertices.push(new THREE.Vector3( 1.0, -1.0, 0.0));
+   cuadradoGeometria.vertices.push(new THREE.Vector3(-1.0, -1.0, 0.0));
+   cuadradoGeometria.faces.push(new THREE.Face4(0, 1, 2, 3));
+
+   cubo = new THREE.Mesh(cuadradoGeometria, cuadradoMaterial);
+   cubo.position.set(0, 0, -7.0);
+   escena.add(cubo);
+  
+  
+Resultado
+---------
+Si abrimos el archivo index.html en el navegador, veremos algo como esto:
+
+.. figure:: img/escena_cuadrado.png
 
 
