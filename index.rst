@@ -24,3 +24,4 @@ Introducción:
 	
    source/crear_escena
    source/anadir_objetos
+   source/anadir_movimiento
