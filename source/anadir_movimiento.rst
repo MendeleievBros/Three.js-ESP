@@ -11,10 +11,10 @@ Primero añadiremos una función, que se ejecutará cada pocas milésimas de seg
 
 Tenemos que añadir la variable cubo al principio del archivo javascript.js, para poder utilizarlo en cualquier parte de nuestro código.
 Antes de la función startEscena(), pondremos esta función:
+
 .. code-block:: javascript
 
-   
-   window.requestAnimFrame = (  nuevo
+   window.requestAnimFrame = (  
 	function(){
 		return  window.requestAnimationFrame       ||
 		window.webkitRequestAnimationFrame ||
